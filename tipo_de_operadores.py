@@ -77,5 +77,5 @@ print(x==4 and y==6 )
 print(x==5 or y==8)
 
 usuario_logueado=True
-click_ logout=True
+click_logout=True
 print(not usuario_logueado)
