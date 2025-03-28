@@ -9,8 +9,8 @@ descriptivo con la comprobación de la división.
 '''
 
 #comprobacion de la division
-#x=int(input('porfavor entregar dividendo')) #dividendo
-#y=int(input('porfavor entregar divisor')) #divisor
+
 x=48 #divisor
 y=2 #dividendo
-print(x/y)
+enunciado_1= "el resultado es"
+enunciado_2= (x/y)
