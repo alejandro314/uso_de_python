@@ -10,7 +10,13 @@ descriptivo con la comprobación de la división.
 
 #comprobacion de la division
 
-x=48 #divisor
-y=2 #dividendo
-enunciado_1= "el resultado es"
-enunciado_2= (x/y)
+dividendo=float(input("ingrese el dividendo"))
+divisor=float(input("ingrese el divisor"))
+
+division=dividendo/divisor
+
+cociente = dividendo / divisor
+residuo = dividendo % divisor
+
+print("comprobacion de division")
+print(f"{divisor} * {cociente} + {residuo} = {dividendo}")
