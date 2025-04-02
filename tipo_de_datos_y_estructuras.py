@@ -93,9 +93,32 @@ son inmutables,
 almacenan distintos tipos de datos
 '''
 tupla_1=(1,1,1,1,1,1,1,1,"b",True)
-print(type(tupla_1))
-print(tupla_1.count("b"))
+#print(type(tupla_1))
+#print(tupla_1.count("b"))
 
-print(tupla_1.index("b"))
+#print(tupla_1.index("b"))
+
+'''
+uso de lista
+'''
+mi_lista=[9,5,8,15,True]
+
+print(mi_lista)
+
+print(len(mi_lista))  #funcion de python len
+mi_lista.append(False)  #aplicando un metodo a la lista
+print(mi_lista)
+print(sum(mi_lista))  #funcion de python sum
+
+'''
+uso de diccionario
+{clave:valor}
+'''
+estudiantes={"andres":{"edad":25, "ciudad de origen":"cali"} "jose":22, "diana":26}
+print(estudiantes.keys())
+print(estudiantes.values())          #dicionario cuando se necesita el detalle de un elemento o de los estudiantes
+print(estudiantes.pop("diana"))  #imprimir el resultado de aplicar el metodo pop
+print(estudiantes)
+
 
 
